@@ -16,6 +16,6 @@ while True:
     qntd_az = area_piso / area_az
 
     if area_piso % area_az == 0:
-        print(f'A quantidade exata de azulejos para preencher o piso é de {qntd_az}')
+        print(f'A quantidade exata de azulejos para preencher o piso de {piso_a}m x {piso_b}m é de {qntd_az} metros quadrados.')
     else:
-        print(f'A quantidade mínima de azulejos para preencher o piso é de {math.ceil(qntd_az)}')
+        print(f'A quantidade mínima de azulejos para preencher o piso de {piso_a}m x {piso_b}m é de {math.ceil(qntd_az)} metros quadrados.')
